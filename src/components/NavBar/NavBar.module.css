@@ -1,0 +1,50 @@
+.nav {
+	grid-area: n;
+	background-color: #cfe3eb;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+.navItem {
+	padding: 10px;
+}
+.nav div a {
+	padding-right: 10px;
+	border-right: 1px solid black;
+	text-decoration: none;
+	font-weight: 700;
+	color: black;
+}
+.item {
+	font-weight: 700;
+}
+.active {
+	color: white;
+}
+
+.friends {
+	display: grid;
+	grid-template-columns: repeat(3, 50px);
+	column-gap: 10px;
+	row-gap: 10px;
+	padding: 10px;
+}
+.friends div {
+	display: flex;
+	flex-direction: column;
+}
+.image {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+.image img {
+	border-radius: 100%;
+}
+.friendName {
+	text-align: center;
+}
+.friendName span {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

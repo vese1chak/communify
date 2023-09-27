@@ -1,0 +1,23 @@
+.app-wrapper {
+	display: grid;
+	grid-template-areas: 'h h' 'n c';
+	grid-template-rows: 60px 1fr;
+	grid-template-columns: 2fr 10fr;
+	gap: 10px;
+	margin: 0 auto;
+}
+.app-wrapper__content {
+	padding: 10px;
+	grid-area: c;
+	background-color: #cfe3eb;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+.app-wrapper__content div img {
+	width: 800px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}

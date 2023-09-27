@@ -1,0 +1,11 @@
+.post {
+	font-size: 17px;
+	padding: 10px;
+	border-bottom: 3px solid black;
+}
+
+.post a {
+	margin-left: 10px;
+	color: #fff;
+	text-decoration: none;
+}
